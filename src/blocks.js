@@ -37,4 +37,12 @@ export default (editor, opts = {}) => {
       ],
     },
   });
+
+  bm.add('chaitnya', {
+    label: 'Link',
+    content: {
+      type: 'chaitnya',
+      content: 'Link text',
+    },
+  });
 };
